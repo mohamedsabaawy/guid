@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::group(['namespace' => 'API' , 'prefix'=>'v1'],function (){
-    Route::get('/register','ClientController@registerr');
+    Route::get('/register','ClientController@register');
     Route::post('/login','ClientController@login'); ///api/v1/login
     Route::post('/city','HotelController@city'); ///api/v1/city/
 
