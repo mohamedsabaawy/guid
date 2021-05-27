@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 
 define('STORAGE', 'public/');
 define('PAGINATE', 1);
+URL::forceSchema('https');
 
 /*
 |--------------------------------------------------------------------------
