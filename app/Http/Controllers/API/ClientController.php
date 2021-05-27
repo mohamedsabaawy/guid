@@ -13,7 +13,8 @@ use Illuminate\Support\Facades\Auth;
 
 class ClientController extends Controller
 {
-    public function register(ClientRequest $request)
+//     ClientRequest $request
+    public function register()
     {
         return 'sdfvbsdfb';
         $client = Client::create([
