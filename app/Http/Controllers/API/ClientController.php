@@ -15,6 +15,7 @@ class ClientController extends Controller
 {
     public function register(ClientRequest $request)
     {
+        return 'sdfvbsdfb';
         $client = Client::create([
             'name' => $request->name,
             'email' => $request->email,
